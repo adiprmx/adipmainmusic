@@ -1,39 +1,39 @@
-# 🎶 ADIP MAIN MUSIC
+# 🎵 ADIP MAIN MUSIC
 
-![Banner](./images/banner-preview.png)  
+![Banner Preview](./images/banner-preview.png)
 
-Website official ADIP RMX untuk jualan **FL Studio Mobile Project**, **Sample Pack**, dan jasa **Remix**.  
-🌐 Live Demo: [adipmusic.my.id](https://adipmusic.my.id)  
-📦 Repository: [GitHub](https://github.com/adiprmx/adipmainmusic)  
+Official website ADIP RMX untuk jualan **FL Studio Mobile Projects**, **Sample Packs**, dan jasa **Remix**.  
+🌐 Live Website: [adipmusic.my.id](https://adipmusic.my.id)  
+📦 Repository: [GitHub](https://github.com/adiprmx/adipmainmusic)
 
 ---
 
 ## 🚀 Tentang Project
 
-ADIP MAIN MUSIC dibuat untuk menampilkan dan mempromosikan karya musik digital:
+ADIP MAIN MUSIC dibuat untuk menampilkan karya musik digital secara profesional:  
 
-- **FL Studio Mobile Project** siap pakai  
-- **Sample Pack** eksklusif  
+- **FL Studio Mobile Projects** siap pakai  
+- **Sample Packs** eksklusif  
 - **Jasa Remix** custom sesuai request  
 - **Custom Chord & BPM**  
-- **Informasi pembayaran & testimoni pelanggan**
+- **Testimoni & info pembayaran**  
 
-Website ini ringan, cepat, dan responsive — bisa diakses dari **PC, tablet, maupun smartphone**.
+Website **ringan, cepat, dan fully responsive** — bisa diakses dari PC, tablet, maupun smartphone.
 
 ---
 
 ## 🌟 Fitur Unggulan
 
-| Fitur                     | Status |
-|----------------------------|--------|
+| Fitur | Status |
+|-------|--------|
 | Hero section dengan branding ADIP RMX | ✅ |
-| List Produk Digital        | ✅ |
-| Halaman About & Kontak     | ✅ |
-| Jasa Remix & Custom Chord  | ✅ |
-| Testimoni Pelanggan        | ✅ |
-| Navigasi Responsive        | ✅ |
-| Struktur Folder Terorganisir | ✅ |
-| Siap Deploy (Vercel/Netlify/GitHub Pages) | ✅ |
+| List produk digital (FLM & Sample Pack) | ✅ |
+| Halaman About & Kontak | ✅ |
+| Jasa Remix & Custom Chord | ✅ |
+| Testimoni Pelanggan | ✅ |
+| Navigasi responsive | ✅ |
+| Struktur folder terorganisir | ✅ |
+| Siap deploy (Vercel/Netlify/GitHub Pages) | ✅ |
 
 ---
 
@@ -66,13 +66,13 @@ adipmainmusic/
 
 ---
 
-## ⚙ Jalankan Project Secara Lokal
+## ⚙ Cara Menjalankan Project Secara Lokal
 
-1. Clone repository:
+1. Clone repository:  
    ```bash
    git clone https://github.com/adiprmx/adipmainmusic.git
    ```
-2. Masuk ke folder project:
+2. Masuk ke folder project:  
    ```bash
    cd adipmainmusic
    ```
@@ -98,7 +98,7 @@ adipmainmusic/
 
 ---
 
-## 🎨 Tujuan Project
+## 🎯 Tujuan Project
 
 - Branding personal ADIP RMX  
 - Media jualan digital product  
@@ -107,10 +107,13 @@ adipmainmusic/
 
 ---
 
-## 🔖 Lisensi
+## 🔒 Hak Cipta & Peringatan
 
-Project ini **open-source untuk portofolio & personal branding**.  
-Dilarang gunakan ulang untuk tujuan komersial tanpa izin.
+⚠️ Semua kode, aset, dan konten di project ini **dilindungi hak cipta**.  
+- Dilarang menyalin, mendistribusi, atau menggunakan ulang tanpa izin.  
+- Jika ingin mengadaptasi, **minta izin penulis**.  
+
+> 🔐 Mencegah pencurian source code = tanggung jawab moral & legal.
 
 ---
 
