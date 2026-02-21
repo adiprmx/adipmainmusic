@@ -1,10 +1,10 @@
 # 🎵 ADIP MAIN MUSIC
 
-![Banner Preview](./images/banner-preview.png)
+![Banner Animated](./images/banner-animated.gif)
 
 Official website ADIP RMX untuk jualan **FL Studio Mobile Projects**, **Sample Packs**, dan jasa **Remix**.  
 🌐 Live Website: [adipmusic.my.id](https://adipmusic.my.id)  
-📦 Repository: [GitHub](https://github.com/adiprmx/adipmainmusic)
+📦 Repository: [GitHub](https://github.com/adiprmx/adipmainmusic)  
 
 ---
 
@@ -12,11 +12,11 @@ Official website ADIP RMX untuk jualan **FL Studio Mobile Projects**, **Sample P
 
 ADIP MAIN MUSIC dibuat untuk menampilkan karya musik digital secara profesional:  
 
-- **FL Studio Mobile Projects** siap pakai  
-- **Sample Packs** eksklusif  
-- **Jasa Remix** custom sesuai request  
-- **Custom Chord & BPM**  
-- **Testimoni & info pembayaran**  
+- 🎹 **FL Studio Mobile Projects** siap pakai  
+- 🎧 **Sample Packs** eksklusif  
+- 🎵 **Jasa Remix** custom sesuai request  
+- 🎶 **Custom Chord & BPM**  
+- 💬 **Testimoni & info pembayaran**  
 
 Website **ringan, cepat, dan fully responsive** — bisa diakses dari PC, tablet, maupun smartphone.
 
@@ -34,6 +34,8 @@ Website **ringan, cepat, dan fully responsive** — bisa diakses dari PC, tablet
 | Navigasi responsive | ✅ |
 | Struktur folder terorganisir | ✅ |
 | Siap deploy (Vercel/Netlify/GitHub Pages) | ✅ |
+
+💡 **Bonus:** Gunakan animasi GIF preview produk untuk membuat halaman lebih hidup.
 
 ---
 
@@ -58,7 +60,8 @@ adipmainmusic/
 ├── js/
 │   └── script.js
 ├── images/
-│   └── banner-preview.png
+│   ├── banner-preview.png
+│   └── banner-animated.gif
 ├── index.html
 ├── about.html
 └── README.md
@@ -66,7 +69,7 @@ adipmainmusic/
 
 ---
 
-## ⚙ Cara Menjalankan Project Secara Lokal
+## ⚙ Jalankan Project Secara Lokal
 
 1. Clone repository:  
    ```bash
@@ -98,7 +101,7 @@ adipmainmusic/
 
 ---
 
-## 🎯 Tujuan Project
+## 🎨 Tujuan Project
 
 - Branding personal ADIP RMX  
 - Media jualan digital product  
@@ -110,6 +113,7 @@ adipmainmusic/
 ## 🔒 Hak Cipta & Peringatan
 
 ⚠️ Semua kode, aset, dan konten di project ini **dilindungi hak cipta**.  
+
 - Dilarang menyalin, mendistribusi, atau menggunakan ulang tanpa izin.  
 - Jika ingin mengadaptasi, **minta izin penulis**.  
 
@@ -131,3 +135,11 @@ ADIP RMX
 - Punya saran / feedback → langsung DM atau Issues  
 
 > 🎵 Terima kasih sudah mampir & dukung karya ADIP RMX!
+
+---
+
+## 🔔 Badges (Optional)
+
+![Website Status](https://img.shields.io/website-up-down-green-red/https/adipmusic.my.id)  
+![GitHub Repo Stars](https://img.shields.io/github/stars/adiprmx/adipmainmusic?style=social)  
+![License](https://img.shields.io/github/license/adiprmx/adipmainmusic)
