@@ -657,6 +657,15 @@ function orderService(serviceName) {
     window.open(link, '_blank');
 }
 
+// proteksi ringan: disable right-click, long press, dan shortcut
+document.addEventListener('contextmenu', e => e.preventDefault()); // desktop
+document.addEventListener('touchstart', e => {
+    if(e.touches.length > 1) e.preventDefault(); // mobile multi-touch
+});
+document.addEventListener('keydown', e => {
+    if(e.ctrlKey && ['u','c','s'].includes(e.key.toLowerCase())) e.preventDefault();
+});
+
 // ========================================
 // Instructions for Adding More Products
 // ========================================
