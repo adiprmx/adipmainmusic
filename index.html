@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIP RMX SHOP - FL Studio Mobile Projects & Sample Packs</title>
+    <meta name="description" content="ADIP RMX SHOP - Jual FL Studio Mobile Projects dan Sample Packs berkualitas premium untuk producer Indonesia">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="about.html" class="nav-logo">
+                <img src="images/logo.png" alt="ADIP RMX Logo" class="logo-img">
+                <span class="logo-text">ADIP RMX</span>
+            </a>
+            
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#produk" class="nav-link">Produk</a></li>
+                <li><a href="#request" class="nav-link">Request</a></li>
+                <li><a href="#pembayaran" class="nav-link">Pembayaran</a></li>
+                <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+                <li><a href="#chord-bpm" class="nav-link">Jasa Chord & BPM</a></li>
+                <li><a href="#sample-packs" class="nav-link">Sample Packs</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="cart-btn" id="cartBtn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="dashboard">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-music"></i>
+                    <span>Music Production</span>
+                </div>
+                <h1 class="hero-title">
+                    ADIP RMX <span class="gradient-text">SHOP</span>
+                </h1>
+                <p class="hero-subtitle">
+                    FL Studio Mobile Projects & Sample Packs
+                </p>
+                <p class="hero-description">
+                    Di sini aku menyediakan penjualan file FLM/projek FL Studio Mobile (ready maupun sesuai request), serta melayani jasa remix dengan hasil yang rapi dan berkualitas.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">FLM Products</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Sample Packs</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#produk" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i>
+                        Lihat Produk
+                    </a>
+                    <a href="https://wa.me/6285893523975" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll untuk melihat</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>FLM Rapi</h3>
+                    <p>Track terorganisir, mixing balance, siap upload ke platform.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>Sample Bersih</h3>
+                    <p>Loop & one-shot dengan labeling jelas dan kualitas tinggi.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <h3>Request Revisi</h3>
+                    <p>Revisi kecil & cepat sesuai kesepakatan awal.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support Cepat</h3>
+                    <p>Respons cepat via WhatsApp untuk bantuan teknis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLM Products Section -->
+    <section class="products" id="produk">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FL Studio Mobile</span>
+                <h2 class="section-title">Featured <span class="gradient-text">FLM</span></h2>
+                <p class="section-description">25+ Project FL Studio Mobile siap pakai dengan kualitas premium</p>
+            </div>
+            
+            <!-- Search Bar FLM -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchFlm" placeholder="Cari FLM berdasarkan nama atau genre...">
+                    <button class="search-clear" id="clearSearchFlm"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            
+            <div class="products-grid" id="flmProducts">
+                <!-- FLM Products will be loaded by JavaScript -->
+            </div>
+            
+            <div class="section-footer">
+                <button class="btn btn-outline" id="loadMoreFlm">
+                    <i class="fas fa-plus"></i>
+                    Lihat Semua FLM
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Packs Section -->
+    <section class="products sample-packs" id="sample-packs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Sample Packs</span>
+                <h2 class="section-title">50+ <span class="gradient-text">Sample Packs</span></h2>
+                <p class="section-description">Drum loops, melody loops, one-shots, FX—semua dengan label rapi</p>
+            </div>
+            
+            <!-- Search Bar Sample Packs -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchSample" placeholder="Cari Sample Pack berdasarkan nama atau kategori...">
+                    <button class="search-clear" id="clearSearchSample"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            
+            <div class="products-grid" id="sampleProducts">
+                <!-- Sample Packs will be loaded by JavaScript -->
+            </div>
+            
+            <div class="section-footer">
+                <button class="btn btn-outline" id="loadMoreSample">
+                    <i class="fas fa-plus"></i>
+                    Lihat Semua Sample Packs
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jasa Chord & BPM Section -->
+    <section class="services" id="chord-bpm">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Layanan</span>
+                <h2 class="section-title">Jasa <span class="gradient-text">Chord & BPM</span></h2>
+                <p class="section-description">Butuh bantuan produksi? Chord progression, BPM mapping, dan request custom—cepat & rapi</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-guitar"></i>
+                        </div>
+                        <span class="service-tag">Populer</span>
+                    </div>
+                    <h3>Nyusun Chord</h3>
+                    <p>Dari referensi lagu atau mood yang kamu inginkan. Chord progression yang harmonis.</p>
+                    <div class="service-price">
+                        <span class="price-label">Mulai dari</span>
+                        <span class="price-value">Rp 50.000 - 100.000</span>
+                    </div>
+                    <button class="btn btn-primary btn-full" onclick="orderService('Nyusun Chord')">
+                        <i class="fab fa-whatsapp"></i>
+                        Pesan Sekarang
+                    </button>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <span class="service-tag">Best Seller</span>
+                    </div>
+                    <h3>BPM & Arrangement</h3>
+                    <p>Mapping tempo, struktur, dan transisi yang clean. Arrangement profesional.</p>
+                    <div class="service-price">
+                        <span class="price-label">Mulai dari</span>
+                        <span class="price-value">Rp 75.000 - 150.000</span>
+                    </div>
+                    <button class="btn btn-primary btn-full" onclick="orderService('BPM & Arrangement')">
+                        <i class="fab fa-whatsapp"></i>
+                        Pesan Sekarang
+                    </button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <span class="service-tag">Premium</span>
+                    </div>
+                    <h3>Mixing & Mastering</h3>
+                    <p>Mixing balance dan mastering untuk kualitas broadcast. Siap rilis.</p>
+                    <div class="service-price">
+                        <span class="price-label">Mulai dari</span>
+                        <span class="price-value">Rp 100.000 - 200.000</span>
+                    </div>
+                    <button class="btn btn-primary btn-full" onclick="orderService('Mixing & Mastering')">
+                        <i class="fab fa-whatsapp"></i>
+                        Pesan Sekarang
+                    </button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <span class="service-tag">Custom</span>
+                    </div>
+                    <h3>Request Custom Beat</h3>
+                    <p>Beat sesuai brief: genre, vibe, deadline. Revisi kecil termasuk.</p>
+                    <div class="service-price">
+                        <span class="price-label">Mulai dari</span>
+                        <span class="price-value">Rp 150.000 - 300.000</span>
+                    </div>
+                    <button class="btn btn-primary btn-full" onclick="orderService('Request Custom Beat')">
+                        <i class="fab fa-whatsapp"></i>
+                        Pesan Sekarang
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Section -->
+    <section class="request-section" id="request">
+        <div class="container">
+            <div class="request-content">
+                <div class="request-text">
+                    <h2>Punya Request <span class="gradient-text">Khusus?</span></h2>
+                    <p>Kamu bisa request beat custom sesuai genre, mood, atau referensi lagu yang kamu suka. Kita diskusikan bareng-bareng sampai hasilnya sesuai ekspektasi.</p>
+                    <ul class="request-list">
+                        <li><i class="fas fa-check"></i> Bebas pilih genre</li>
+                        <li><i class="fas fa-check"></i> Revisi sampai puas</li>
+                        <li><i class="fas fa-check"></i> Delivery cepat</li>
+                        <li><i class="fas fa-check"></i> Harga negotiable</li>
+                    </ul>
+                    <a href="https://wa.me/6285893523975?text=Halo%20ADIP%20RMX,%20saya%20mau%20request%20custom%20beat" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        Request Sekarang
+                    </a>
+                </div>
+                <div class="request-visual">
+                    <div class="visual-card">
+                        <div class="visual-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="visual-waves">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pembayaran Section -->
+    <section class="payment" id="pembayaran">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Pembayaran</span>
+                <h2 class="section-title">Pembayaran <span class="gradient-text">Mudah</span></h2>
+                <p class="section-description">Transfer bank, e-wallet, atau QRIS. Semua dalam satu tempat.</p>
+            </div>
+            
+            <div class="payment-tabs">
+                <button class="tab-btn active" data-tab="qris">
+                    <i class="fas fa-qrcode"></i>
+                    QRIS
+                </button>
+                <button class="tab-btn" data-tab="ewallet">
+                    <i class="fas fa-wallet"></i>
+                    E-Wallet
+                </button>
+                <button class="tab-btn" data-tab="bank">
+                    <i class="fas fa-university"></i>
+                    Bank Transfer
+                </button>
+            </div>
+            
+            <div class="payment-content">
+                <!-- QRIS Tab -->
+                <div class="tab-panel active" id="qris-panel">
+                    <div class="qris-container">
+                        <div class="qris-code">
+                            <div class="qris-placeholder">
+                                <i class="fas fa-qrcode"></i>
+                                <span>QRIS Code</span>
+                                <p>Scan QRIS dengan aplikasi e-wallet atau mobile banking Anda</p>
+                            </div>
+                        </div>
+                        <div class="qris-info">
+                            <h3>Cara Pembayaran QRIS</h3>
+                            <ol>
+                                <li>Buka aplikasi e-wallet atau mobile banking</li>
+                                <li>Pilih menu scan QRIS</li>
+                                <li>Scan kode QR di atas</li>
+                                <li>Masukkan nominal sesuai total belanja</li>
+                                <li>Konfirmasi pembayaran</li>
+                                <li>Kirim bukti pembayaran via WhatsApp</li>
+                            </ol>
+                            <div class="qris-note">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Setelah transfer, kirim bukti pembayaran via WhatsApp untuk konfirmasi.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- E-Wallet Tab -->
+                <div class="tab-panel" id="ewallet-panel">
+                    <div class="ewallet-grid">
+                        <div class="ewallet-card">
+                            <div class="ewallet-logo">
+                                <img src="images/dana.png" alt="DANA">
+                            </div>
+                            <div class="ewallet-info">
+                                <h4>DANA</h4>
+                                <p class="account-number">0858-9352-3975</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('085893523975')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="ewallet-card">
+                            <div class="ewallet-logo">
+                                <img src="images/gopay.png" alt="GoPay">
+                            </div>
+                            <div class="ewallet-info">
+                                <h4>GoPay</h4>
+                                <p class="account-number">0858-9352-3975</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('085893523975')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="ewallet-card">
+                            <div class="ewallet-logo">
+                                <img src="images/ovo.png" alt="OVO">
+                            </div>
+                            <div class="ewallet-info">
+                                <h4>OVO</h4>
+                                <p class="account-number">0858-9352-3975</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('085893523975')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="ewallet-card">
+                            <div class="ewallet-logo">
+                                <img src="images/shopeepay.png" alt="ShopeePay">
+                            </div>
+                            <div class="ewallet-info">
+                                <h4>ShopeePay</h4>
+                                <p class="account-number">0858-9352-3975</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('085893523975')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="ewallet-card">
+                            <div class="ewallet-logo">
+                                <img src="images/linkaja.png" alt="LinkAja">
+                            </div>
+                            <div class="ewallet-info">
+                                <h4>LinkAja</h4>
+                                <p class="account-number">0858-9352-3975</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('085893523975')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bank Tab -->
+                <div class="tab-panel" id="bank-panel">
+                    <div class="bank-grid">
+                        <div class="bank-card">
+                            <div class="bank-logo">
+                                <img src="images/bca.png" alt="BCA">
+                            </div>
+                            <div class="bank-info">
+                                <h4>Bank BCA</h4>
+                                <p class="account-number">1234-5678-9012</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('123456789012')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="bank-card">
+                            <div class="bank-logo">
+                                <img src="images/bri.png" alt="BRI">
+                            </div>
+                            <div class="bank-info">
+                                <h4>Bank BRI</h4>
+                                <p class="account-number">9876-5432-1098</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('987654321098')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="bank-card">
+                            <div class="bank-logo">
+                                <img src="images/mandiri.png" alt="Mandiri">
+                            </div>
+                            <div class="bank-info">
+                                <h4>Bank Mandiri</h4>
+                                <p class="account-number">4567-8901-2345</p>
+                                <p class="account-name">a.n. Nadhif Aslam</p>
+                            </div>
+                            <button class="copy-btn" onclick="copyToClipboard('456789012345')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section class="testimonials" id="testimoni">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimoni</span>
+                <h2 class="section-title">Apa Kata <span class="gradient-text">Klien</span></h2>
+                <p class="section-description">Bukti chat & review asli dari pembeli</p>
+            </div>
+            
+            <div class="testimonials-grid" id="testimonialsGrid">
+                <!-- Testimonials will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Mulai Produksi <span class="gradient-text">Hari Ini</span></h2>
+                <p>Pilih FLM atau sample pack, lalu kirim bukti bayar. Konfirmasi via WhatsApp.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/6285893523975" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fab fa-whatsapp"></i>
+                        Order via WhatsApp
+                    </a>
+                    <a href="#produk" class="btn btn-outline btn-large">
+                        <i class="fas fa-shopping-bag"></i>
+                        Lihat Semua Produk
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ADIP RMX Logo">
+                        <span>ADIP RMX</span>
+                    </a>
+                    <p>FLM + Sample Packs untuk producer Indonesia. Kualitas premium, harga terjangkau.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/6285893523975" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/adip.ori" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@adippangkiii" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="mailto:adiprmx@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#produk">FL Studio Mobile</a></li>
+                        <li><a href="#sample-packs">Sample Packs</a></li>
+                        <li><a href="#chord-bpm">Jasa Chord & BPM</a></li>
+                        <li><a href="#request">Request Custom</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Bantuan</h4>
+                    <ul>
+                        <li><a href="#pembayaran">Cara Pembayaran</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                        <li><a href="about.html">Tentang Aku</a></li>
+                        <li><a href="https://wa.me/6285893523975">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> 0858-9352-3975</li>
+                        <li><i class="fab fa-instagram"></i> @adip.ori</li>
+                        <li><i class="fab fa-youtube"></i> @adippangkiii</li>
+                        <li><i class="fas fa-envelope"></i> adiprmx@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 ADIP RMX. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> for music producers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-overlay" id="cartOverlay"></div>
+        <div class="cart-container">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-cart"></i> Keranjang Belanja</h3>
+                <button class="cart-close" id="cartClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-body" id="cartBody">
+                <div class="cart-empty">
+                    <i class="fas fa-shopping-basket"></i>
+                    <p>Keranjang masih kosong</p>
+                    <a href="#produk" class="btn btn-primary" onclick="closeCart()">Belanja Sekarang</a>
+                </div>
+            </div>
+            <div class="cart-footer" id="cartFooter" style="display: none;">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">Rp 0</span>
+                </div>
+                <button class="btn btn-primary btn-full" id="checkoutBtn">
+                    <i class="fab fa-whatsapp"></i>
+                    Checkout via WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Player -->
+    <div class="audio-player" id="audioPlayer">
+        <div class="player-info">
+            <div class="player-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <span class="player-title" id="playerTitle">Preview</span>
+        </div>
+        <div class="player-controls">
+            <button class="player-btn" id="playerPlayPause">
+                <i class="fas fa-pause"></i>
+            </button>
+            <button class="player-btn" id="playerClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <audio id="audioElement"></audio>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Item ditambahkan ke keranjang</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
