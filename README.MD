@@ -110,14 +110,16 @@ adipmainmusic/
 
 ---
 
-## 🔒 Hak Cipta & Peringatan
+## 🔒 Hak Cipta & Izin Pakai Source Code
 
 ⚠️ Semua kode, aset, dan konten di project ini **dilindungi hak cipta**.  
 
 - Dilarang menyalin, mendistribusi, atau menggunakan ulang tanpa izin.  
-- Jika ingin mengadaptasi, **minta izin penulis**.  
+- Jika ingin mengadaptasi atau menggunakan code ini, **harus minta izin langsung ke author**.  
+- **Source code yang diberikan harus diubah cukup signifikan** agar tidak sama persis, tidak boleh copy-paste langsung.  
 
-> 🔐 Mencegah pencurian source code = tanggung jawab moral & legal.
+> 🔐 Mencegah pencurian source code = tanggung jawab moral & legal.  
+> 💡 Dengan minta izin dulu, orang lain bisa adaptasi tapi tetap menghormati karya asli.
 
 ---
 
@@ -138,7 +140,7 @@ ADIP RMX
 
 ---
 
-## 🔔 Badges (Optional)
+## 🔔 Badges (Opsional)
 
 ![Website Status](https://img.shields.io/website-up-down-green-red/https/adipmusic.my.id)  
 ![GitHub Repo Stars](https://img.shields.io/github/stars/adiprmx/adipmainmusic?style=social)  
